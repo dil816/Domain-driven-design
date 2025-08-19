@@ -22,3 +22,5 @@ foreach (IDomainEvent domainEvent in user.DomainEvents)
     //    Console.WriteLine($"User Profile Update eventId={p.Id}, Time={p.OccurredOnUtc}");
     //}
 }
+
+user.ClearDomainEvents();
